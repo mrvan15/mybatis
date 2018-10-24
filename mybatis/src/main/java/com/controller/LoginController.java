@@ -20,6 +20,8 @@ public class LoginController {
             user.setName(name);
             session.setAttribute("user",user);
             return "登录成功";
+            System.out.println("yyy");
+
         } else {
             return "用户名或密码错误!";
         }
