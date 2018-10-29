@@ -28,8 +28,8 @@ public class UserController {
     	User user = new User();
          user.setName("rst");
          user.setAge(25);
-//         userService.saveUser(user);
-//         redisUtil.set("saves", user);
+         userService.saveUser(user);
+         redisUtil.set("saves", user);
 		return "dddd";
     	
     }
