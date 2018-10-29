@@ -21,10 +21,11 @@ public class LoginController {
             session.setAttribute("user",user);
             return "登录成功";
             System.out.println("yyy");
-			System.out.println("sss");
+	    System.out.println("sss");
 
         } else {
             return "用户名或密码错误!";
+	    System.out.println("sss");
         }
    
 	}
