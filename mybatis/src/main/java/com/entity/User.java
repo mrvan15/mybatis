@@ -13,8 +13,8 @@ public class User  implements Serializable{
 	private String name;
 	private Integer age;
 	
-	public User(){
-		
+	public User(Integer id){
+		this.id = id;
 	}
 	
 	public Integer getId() {
