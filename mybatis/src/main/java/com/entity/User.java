@@ -12,11 +12,21 @@ public class User  implements Serializable{
 	private Integer id;
 	private String name;
 	private Integer age;
-	
+
 	public User(){
-		
+
 	}
-	
+
+
+	@java.lang.Override
+	public java.lang.String toString() {
+		return "User{" +
+				"id=" + id +
+				", name='" + name + '\'' +
+				", age=" + age +
+				'}';
+	}
+
 	public Integer getId() {
 		return id;
 	}
